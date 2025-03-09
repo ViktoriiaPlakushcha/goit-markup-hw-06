@@ -598,7 +598,7 @@
     </footer>
     <!-- #endregion Footer -->
     <!-- #region Modal Window -->
-    <div class="modal-overlay hidden">
+    <div class="modal-overlay">
       <div class="modal">
         <button class="close-btn" type="button">
           <svg class="close-icon" width="8" height="8">
@@ -614,7 +614,7 @@
                 class="form-input"
                 type="text"
                 name="user-name"
-                pattern="[a-zA-zа-яА-ЯЇїІієЄ']{15}"
+                pattern="[a-zA-Zа-яА-ЯЇїІієЄ']{2,50}"
                 id="user-name"
                 required
                 autocomplete="off"
@@ -632,6 +632,7 @@
                 type="tel"
                 name="user-phone"
                 id="user-phn"
+                pattern="^\+?[0-9]{7,15}$"
                 required
                 autocomplete="off"
               />
@@ -673,13 +674,16 @@
               value="true"
               type="checkbox"
               id="user-privacy"
+              required
             />
             <label class="privacy-label" for="user-privacy"
               ><span class="custom-checked"
                 ><svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use></svg></span
-              >I accept the terms and conditions of the
-              <a class="privacy-link" href="">Privacy Policy</a></label
+              ><span
+                >I accept the terms and conditions of the
+                <a class="privacy-link" href="">Privacy Policy</a></span
+              ></label
             >
           </div>
           <button class="submit-btn" type="submit">Send</button>
