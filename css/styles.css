@@ -347,6 +347,7 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 320px;
     min-height: 432px;
     padding: 72px 52px;
     margin: 0 auto;
@@ -405,7 +406,7 @@ main {
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
         url('../images/hero-bg-tablet1.jpg');
-        
+        max-width: 768px;
         padding: 122px 0;
     }
     .hero .page-title {
