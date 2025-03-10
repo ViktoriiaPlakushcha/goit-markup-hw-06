@@ -426,7 +426,7 @@ main {
         url('../images/hero-bg-tablet2.jpg');
     }
 }
-@media screen and (min-width: 1558px) {
+@media screen and (min-width: 1158px) {
     .hero {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
@@ -445,7 +445,7 @@ main {
         margin-top: 48px;
     }
 }
-@media screen and (min-width: 1558px) and (min-resolution: 2x) {
+@media screen and (min-width: 1158px) and (min-resolution: 2x) {
     .hero {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
@@ -489,7 +489,7 @@ main {
         column-gap: 24px;
     }
 }
-@media screen and (min-width: 1558px) {
+@media screen and (min-width: 1158px) {
     .benefits {
         padding: 101px 0 120px 0;
         }
@@ -585,7 +585,7 @@ main {
 }
 }
 
-@media screen and (min-width: 1558px) {
+@media screen and (min-width: 1158px) {
     .team {
     padding: 120px 0;
 }
@@ -646,7 +646,7 @@ main {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 }
-@media screen and (min-width: 1558px) {
+@media screen and (min-width: 1158px) {
 .portfolio {
     padding: 120px 0;
 }
@@ -834,7 +834,7 @@ main {
     width: 264px;
 }
 }
-@media screen and (min-width: 1558px) {
+@media screen and (min-width: 1158px) {
 .page-ftr {
     padding: 100px 16px;
 }
